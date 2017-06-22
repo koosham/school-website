@@ -1,0 +1,8 @@
+option echo off 
+option batch on 
+option confirm off 
+open sftp://km89f@minersftp.mst.edu
+lcd %cd%
+cd /userweb/km89f/
+put -nopermissions -nopreservetime -filemask=*|archive/;notes/;.git/;.gitignore;*.bat;*.ftp *
+exit

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<link rel="icon" type="image/png" href="images/icon.png" />
+		<title>Koosha Marashi's Personal Website</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap-lumen.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<!-- Google Analytics -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-55194576-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+	</head>
+	
+	<body>
+		<div class="container wrapper">
+			<div class="row">
+				<img src="images/header.jpg" alt="Koosha Marashi" title="S&amp;T Campus, Fall 2013" class="img-responsive center-block">
+			</div>
+			
+			<nav class="navbar navbar-default">
+				<ul class="nav nav-tabs nav-justified">
+					<li role="presentation"><a href="index.html">Home</a></li>
+					<li role="presentation"><a href="research.html">Research</a></li>
+					<li role="presentation"><a href="coursework.html">Course Work</a></li>
+					<li role="presentation"><a href="publications.html">Publications</a></li>
+					<li role="presentation"><a href="cv/cv.pdf">Curriculum Vitae</a></li>
+					<li role="presentation" class="active"><a href="projects.html">Projects</a></li>
+					<li role="presentation"><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 id="AirbandRadio">Automated Airband Radio</h3>
+				</div>
+				<div class="col-sm-7">
+					<p style="text-align: justify">This is a project by <a href="http://kalscott.com/" target="_blank">KalScott Eng.</a> and aims at design, simulation, and 
+					development of an automated airband radio as an initial step towards development of completely autonomous UAVs. This project
+					incorporates location-based database accessing, GPS navigation, and airband radio deployment. <br>
+					The system uses data from a GPS/IMU device and broadcasts the intent of the UAV to nearby traffic automatically.
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<img src="images/automated_airband_radio.jpg" alt="Automated Airband Radio" class="img-responsive">
+				</div>
+			</div>
+			<hr>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 id="ECU">Prototype of Engine Control Unit (ECU)</h3>
+				</div>
+				<div class="col-sm-8">
+					<p style="text-align: justify">An engine control unit (ECU) is a type of electronic control unit that determines the amount of fuel and ignition
+					timing that a gasoline engine needs to keep running. <br>
+					A programmable microcontroller-based ECU is designed and developed for
+					<a href="http://hamidrahimi66.wix.com/iutsupermileage" target="_blank">VIVANA vehicle</a>. VIVANA is designed and manufactured by
+					supermileage student design team of <a href="http://www.iut.ac.ir/en/" target="_blank">Isfahan University of Technology</a>. <br>
+					This electronic control unit determines the amount of fuel, ignition timing and controls other parameters such as electronic throttle
+					actuator, cooler fan, starter motor, electrical clutch and transmission system modes. It is tried to design this ECU base on
+					<a href="http://www.autosar.org/" target="_blank">AUTOSAR</a> standards. <br>
+					ECU's typically determine fuel injection and ignition advance time by reading values from multidimensional performance maps which are
+					programmed by an interface software beforehand. <br>
+					The processing unit of this ECU is an 8-bit AVR microcontroller from Atmel
+					(<a href="http://www.atmel.com/devices/ATMEGA128.aspx" target="_blank">ATMega128</a>) which has 4KB of embedded E<sup>2</sup>PROM Memory.
+					ECU could be connected to PC via RS232 for uploading performance maps and monitoring real time engine information.
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/ecu_pcb.jpg" alt="ECU PCB" class="img-responsive"> <br>
+					<img src="images/ecu_program_screenshot.jpg" alt="ECU Software" class="img-responsive">
+				</div>
+			</div>
+			<hr>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 id="Parsa">Parsa Humanoid Robot Controller Board</h3>
+				</div>
+				<div class="col-sm-8">
+					<p style="text-align: justify">Parsa is a kid-size humanoid robot developed in Artificial Inelligence Lab of
+					<a href="http://www.iut.ac.ir/en/" target="_blank">Isfahan University of Technology</a>. This robot has 20 degree of freedom as well as
+					a CCD image sensor, 3-axis acceleration sensors that detect gravity and 2-axis gyro sensors that detect angular velocity. Parsa is
+					participated in RoboCup Humanoid League and showed impressive capabilities such as coordination with other robots, recognizing
+					environmental features, and playing football. <br>
+					The central controller board that is mounted on the back of the robot includes battery management circuits, servo motor drivers, PDA
+					connectivity interface, data acquisition for sensors and a memory for boot up sequence routine.
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/parsa_robot.jpg" alt="Parsa Humanoid Robot" class="img-responsive">
+				</div>
+			</div>
+			<hr>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 id="LynCean">LynCean Rescue Robot Controller Board</h3>
+				</div>
+				<div class="col-sm-8">
+					<p style="text-align: justify">LynCean is a semi-autonomous robot with outstanding capabilities for Urban Search and Rescue
+					<a href="http://www.nist.gov/urban-search-and-rescue-robots.cfm" target="_blank">(USAR)</a> scenarios. It is small sized, light weight
+					and powerful, and has good stability and proper user interface for utilizing its capabilities. Four independent arms (also known as
+					Flippers) make it able to climb stairs, ramps and many other obstacles. Using a laser range finder and SLAM algorithms, LynCean
+					generates a practical map and sends it to operation site while in disaster arena. It is worth mentioning that the robot is designed
+					and manufactured by the student design team of the robotic center of
+					<a href="http://www.iut.ac.ir/en/" target="_blank">Isfahan University of Technology</a> and is partially funded by Isfahan Firefighting
+					and Safety Services Organization (IFSO) and
+					<a href="http://icti.ir/" target="_blank">Information and Communication Technology Institute (ICTI)</a>. <br>
+					Controller board is an interface between embedded PC on the robot and the physical actuators and sensors. It is mainly based on four
+					Atmel microcontrollers that are interconnected with I2C bus. Each of them has special tasks, classified according to data flows. The
+					main parts of controller board are power management system, brushless and servo motor drivers, serial and analog interfaces for
+					sensors, protection circuits and a serial interface for the connection to the embedded PC. In addition, firmware on microcontrollers
+					includes fuzzy speed controller for brushless motors and data fusion algorithm for localization which is used in map generation.
+					</p>
+					<br>
+					<div class="col-xs-10 col-xs-offset-1">
+						<div class="embed-responsive embed-responsive-4by3">
+							<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/j76rmkIFTrs?fs=1&autohide=0"></iframe>
+						</div>
+					</div>
+					<br>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/lyncean_robot.jpg" alt="LynCean Robot" class="img-responsive"> <br>
+					<img src="images/lyncean_board.jpg" alt="Control Board of LynCean Robot" class="img-responsive">
+				</div>
+			</div>
+			<hr>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 id="CrackMon">Wireless Crack Monitoring System</h3>
+				</div>
+				<div class="col-sm-8">
+					<p style="text-align: justify">This device is an effective tool for structural health monitoring that measures the growth of cracks on walls. This
+					project was funded by <a href="http://behazmoon.com/" target="_blank">Beh Azmoon Anahita Co.</a> and
+					<a href="http://www.ichto.ir/Default.aspx?tabid=1028" target="_blank">Iran's Cultural Heritage Organization</a>. <br>
+					This system includes high resolution displacement sensors which measure very small movements in two orthogonal axes and a wireless
+					communication module to send recorded data to a data logger. The gathered information is then saved on a memory and sent to a server.
+					It uses the widely-available GSM/GPRS network to send monitoring data and alerts to a number of users via FTP and SMS. Temperature and
+					moisture sensors are also embedded in this system. <br>
+					This module is extremely light weight and works with 2 AAA Alkaline batteries for up to 4 years. Moreover, up to 32 devices can send
+					collected data to one data logger located nearby.
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/crackmon.jpg" alt="Crack Monitor" class="img-responsive"> <br>
+					<img src="images/crackmon_mounted.jpg" alt="Mounted Crack Monitor" class="img-responsive"> <br>
+					<img src="images/cm_logger.jpg" alt="Data Logger" class="img-responsive">
+				</div>
+			</div>
+			<hr>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 id="PCDAQ">Stand-alone Data Logger</h3>
+				</div>
+				<div class="col-sm-8">
+					<p style="text-align: justify">This data logger can collect analog data from 10 channels with ultimate resolution of 16 bits in different ranges from
+					thermocouple EMF to voltages up to 10 V or even currents from mA to 1A. It is absolutely accurate due to perfect design and modern
+					equipment. Cold junction compensation is also available for thermocouple channels. <br>
+					Using the OSD, user can easily work with the device and change its configurations to desired settings. For example, the user can set
+					sampling frequency, input type and range for each channel, data file format and serial interface configurations. The data logger can
+					either save data into an MMC memory or send them to a PC via serial connectivity. The logger can save data on memory in text, MS Word
+					document or MS Excel table formats.
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="images/data_logger.jpg" alt="Data Logger" class="img-responsive">
+				</div>
+			</div>
+			<hr>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h3 id="DataLogger">PC-Based Data Acquisition System</h3>
+				</div>
+				<div class="col-sm-7">
+					<p style="text-align: justify">This system is an ideal choice for real-time monitoring and analysis of different processes with embedded sensors and
+					also for controlling different types of actuators. The interface of the system is a data acquisition card by
+					<a href="http://www.advantech.com.tw/default.aspx" target="_blank">Advantech</a>. Signal conditioners with variable gain and offset and
+					also protection circuits, are designed to make the system compatible with a variety of input signals. The computer software that is
+					developed by <a href="http://www.ni.com/labview/" target="_blank">LabVIEW</a> can also send commands in analog or digital forms. These
+					signals are then amplified by some electronic circuits. <br>
+					This device has 16 analog input with resolution of 12-bits, 16 digital input, 16 digital output, and two analog output channels. Cold
+					junction compensation for thermocouples is also embedded.
+					</p>
+				</div>
+				<div class="col-sm-5">
+					<img src="images/pc_based_daq.jpg" alt="PC-Based DAQ" class="img-responsive"> <br>
+					<img src="images/pc_daq_program_snapshot.jpg" alt="PC-Based DAQ Software" class="img-responsive">
+				</div>
+			</div>
+			<div class="push"></div>
+		</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.js"></script>
+		
+		<footer class="footer">
+			<div class="container">
+				<hr>
+				<script type="text/javascript">
+					document.write('<h6>Last Update: ' + LastUpdate + '</h6>');
+				</script>
+				<br>
+			</div>
+		</footer>
+	</body>
+</html>
